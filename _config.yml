@@ -26,9 +26,9 @@ author:
   avatar           : "https://github.com/actypedef.png"
   name             : "Haoqian Meng"
   pronouns         : # example: "she/her"  
-  bio              : "Incoming Ph.D. student at Zhejiang University; undergraduate at Tianjin University."
-  location         : "Tianjin, China"
-  employer         : "Tianjin University"
+  bio              :
+  location         :
+  employer         :
   uri              : # URL
   email            : "actypedef@gmail.com"
 

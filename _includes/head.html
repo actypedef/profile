@@ -13,4 +13,5 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+{% assign stylesheet_version = site.time | date: "%Y%m%d%H%M%S" %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ stylesheet_version }}">

@@ -1,7 +1,2 @@
-# Main site navigation.
-main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "CV"
-    url: /cv/
+# The homepage is a single-page academic profile; keep the masthead minimal.
+main: []

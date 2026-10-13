@@ -30,6 +30,15 @@ body {
   color: #315a86;
 }
 
+.masthead__menu #site-nav > button,
+.masthead__menu #theme-toggle {
+  display: none !important;
+}
+
+.masthead__menu-item--lg.selected a {
+  border-bottom: 0;
+}
+
 .author__content p,
 .sidebar p,
 .sidebar li {
