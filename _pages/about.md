@@ -6,13 +6,13 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming Ph.D. student in Computer Science at Zhejiang University, starting in Fall 2027 and advised by Prof. [Bohan Zhuang](https://bohanzhuang.github.io/). I am currently an undergraduate student in the Elite Class at the School of Computer Science and Technology, Tianjin University (2023–2027).
+I am an incoming Ph.D. student in Computer Science at Zhejiang University, starting in Fall 2027 and advised by Prof. [Bohan Zhuang](https://bohanzhuang.github.io/). I am currently an undergraduate in the Elite Class at Tianjin University’s School of Computer Science and Technology.
 
 ## Research Interests
 
-- Efficient large language model (LLM) inference
-- Post-training quantization and low-precision formats, including NVFP4 and MXFP formats
-- Hardware-aware algorithms, kernel design, and algorithm–hardware co-design
+- Efficient LLM inference
+- Low-precision and mixed-precision quantization
+- GPU kernel and hardware-aware algorithm design
 
 ## Publications
 
