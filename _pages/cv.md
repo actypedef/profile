@@ -10,6 +10,7 @@ redirect_from:
 ## Education
 
 - **2027–** — Incoming Ph.D. student in Computer Science, Zhejiang University.
+  - Advisor: Prof. [Bohan Zhuang](https://bohanzhuang.github.io/).
 - **2023–2027** — Undergraduate student, School of Computer Science and Technology, Tianjin University (Elite Class).
   - Advisor: Prof. Peng Zhang.
 

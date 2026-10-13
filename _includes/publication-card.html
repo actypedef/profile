@@ -1,0 +1,16 @@
+<article class="publication-card" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <a class="publication-card__media" href="{{ post.paperurl }}" aria-label="Open paper: {{ post.title | escape }}">
+    <img class="publication-card__image" src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" decoding="async">
+  </a>
+  <div class="publication-card__body">
+    <h3 class="publication-card__title" itemprop="headline"><a href="{{ post.paperurl }}">{{ post.title }}</a></h3>
+    {% if post.authors_html %}<p class="publication-card__authors" itemprop="author">{{ post.authors_html }}</p>{% endif %}
+    <p class="publication-card__venue">{% if post.venue contains 'arXiv' %}{{ post.venue }} · {{ post.date | date: "%Y" }}{% else %}{{ post.venue }}{% endif %}</p>
+    {% if post.excerpt %}<p class="publication-card__excerpt" itemprop="description">{{ post.excerpt }}</p>{% endif %}
+    <div class="publication-card__links">
+      <a href="{{ post.paperurl }}">Paper</a>
+      {% if post.arxivurl %}<span aria-hidden="true">·</span><a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
+      {% if post.codeurl %}<span aria-hidden="true">·</span><a href="{{ post.codeurl }}">Code</a>{% endif %}
+    </div>
+  </div>
+</article>

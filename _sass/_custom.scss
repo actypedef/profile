@@ -1,0 +1,179 @@
+/* Profile typography and compact academic cards, tuned to the reference site. */
+body {
+  color: #1f2328;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.page__content {
+  font-size: 1.0625rem;
+
+  h2 {
+    margin-top: 1.7em;
+    margin-bottom: 0.65em;
+    padding-bottom: 0.35em;
+    font-size: 1.3rem;
+    color: #16181b;
+  }
+
+  ul {
+    padding-left: 1.2em;
+  }
+
+  li {
+    line-height: 1.55;
+    margin-bottom: 0.28em;
+  }
+}
+
+.page__content a,
+.archive a {
+  color: #315a86;
+}
+
+.author__content p,
+.sidebar p,
+.sidebar li {
+  font-size: 0.84rem;
+}
+
+.education-list {
+  margin-top: 0.6rem;
+}
+
+.education-item {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: start;
+  gap: 0.9rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.education-item__logo-link {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-item__logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+
+.education-item__heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  line-height: 1.4;
+}
+
+.education-item__heading span {
+  flex: 0 0 auto;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.education-item__details > div + div {
+  margin-top: 0.2rem;
+}
+
+.education-item__advisor {
+  font-size: 0.9rem;
+}
+
+.publication-card {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  align-items: start;
+  gap: 1.1rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e7e9ec;
+}
+
+.publication-card__media {
+  display: flex;
+  width: 180px;
+  height: 116px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid #e6e8eb;
+  background: #fff;
+}
+
+.publication-card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.publication-card__title {
+  margin: 0 0 0.45rem;
+  border: 0;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.publication-card__title a {
+  color: #315a86 !important;
+  text-decoration: none !important;
+}
+
+.publication-card__title a:hover {
+  text-decoration: underline !important;
+}
+
+.publication-card__authors,
+.publication-card__venue,
+.publication-card__excerpt,
+.publication-card__links {
+  margin: 0 0 0.35rem !important;
+  line-height: 1.45;
+}
+
+.publication-card__authors {
+  font-size: 0.92rem;
+}
+
+.publication-card__venue {
+  color: #626a73;
+  font-size: 0.84rem;
+}
+
+.publication-card__excerpt {
+  font-size: 0.91rem;
+}
+
+.publication-card__links {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  font-size: 0.86rem;
+}
+
+@media (max-width: 768px) {
+  .publication-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.65rem;
+  }
+
+  .publication-card__media {
+    width: 100%;
+    max-width: 300px;
+    height: 160px;
+  }
+
+  .education-item {
+    grid-template-columns: 42px minmax(0, 1fr);
+    gap: 0.65rem;
+  }
+
+  .education-item__logo-link,
+  .education-item__logo {
+    width: 40px;
+    height: 40px;
+  }
+}
