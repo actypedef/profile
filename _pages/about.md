@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming Ph.D. student in Computer Science at Zhejiang University, starting in Fall 2027 and advised by Prof. [Bohan Zhuang](https://bohanzhuang.github.io/). I am currently an undergraduate in the Elite Class at Tianjin University’s School of Computer Science and Technology.
+I am an incoming **Ph.D. student** in Computer Science at **[Zhejiang University](https://www.zju.edu.cn/english/)**, starting in **Fall 2027** and advised by Prof. **[Bohan Zhuang](https://bohanzhuang.github.io/)**. I am currently a **Research Intern** at **[Tencent Hunyuan](https://hunyuan.tencent.com/)**, and an undergraduate in the Elite Class of the School of Computer Science and Technology at **Tianjin University**.
 
 ## Research Interests
 
@@ -42,6 +42,20 @@ I am an incoming Ph.D. student in Computer Science at Zhejiang University, start
       <div class="education-item__heading"><strong>Undergraduate Student · Elite Class</strong><span>2023–2027</span></div>
       <div><a href="https://en.tju.edu.cn/">Tianjin University</a>, School of Computer Science and Technology</div>
       <div class="education-item__advisor">Advisor: Prof. Peng Zhang</div>
+    </div>
+  </div>
+</div>
+
+## Experience
+
+<div class="education-list">
+  <div class="education-item">
+    <a class="education-item__logo-link" href="https://hunyuan.tencent.com/" aria-label="Tencent Hunyuan">
+      <img class="education-item__logo" src="{{ '/images/companies/tencent-hunyuan.png' | relative_url }}" alt="Tencent Hunyuan logo" loading="lazy">
+    </a>
+    <div class="education-item__details">
+      <div class="education-item__heading"><strong>Research Intern</strong><span>2026.10–Present</span></div>
+      <div><a href="https://hunyuan.tencent.com/">Tencent Hunyuan</a></div>
     </div>
   </div>
 </div>

@@ -5,7 +5,7 @@
   <div class="publication-card__body">
     <h3 class="publication-card__title" itemprop="headline"><a href="{{ post.paperurl }}">{{ post.title }}</a></h3>
     {% if post.authors_html %}<p class="publication-card__authors" itemprop="author">{{ post.authors_html }}</p>{% endif %}
-    <p class="publication-card__venue">{% if post.venue contains 'arXiv' %}{{ post.venue }} · {{ post.date | date: "%Y" }}{% else %}{{ post.venue }}{% endif %}</p>
+    <p class="publication-card__venue">{% if post.venue contains 'arXiv' %}{{ post.venue }} · {{ post.date | date: "%Y" }}{% else %}<strong class="publication-card__venue-badge">{{ post.venue }}</strong>{% endif %}</p>
     {% if post.excerpt %}<p class="publication-card__excerpt" itemprop="description">{{ post.excerpt }}</p>{% endif %}
     <div class="publication-card__links">
       <a href="{{ post.paperurl }}">Paper</a>

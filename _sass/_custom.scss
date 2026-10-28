@@ -155,6 +155,16 @@ body {
   font-size: 0.84rem;
 }
 
+.publication-card__venue-badge {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  border-radius: 4px;
+  background: #eef3f8;
+  color: #1f4e79;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
 .publication-card__excerpt {
   font-size: 0.97rem;
 }

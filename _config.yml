@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Haoqian Meng"
 title_separator          : "-"
 name                     : &name "Haoqian Meng"
-description              : &description "Academic homepage of Haoqian Meng, an undergraduate student at Tianjin University and incoming Ph.D. student at Zhejiang University."
+description              : &description "Academic homepage of Haoqian Meng, a Research Intern at Tencent Hunyuan, an undergraduate student at Tianjin University, and an incoming Ph.D. student at Zhejiang University."
 url                      : https://profile.actypedef.ink # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "https://github.com/actypedef.png"
   name             : "Haoqian Meng"
   pronouns         : # example: "she/her"  
-  bio              :
+  bio              : "Research Intern @ Tencent Hunyuan<br>Incoming Ph.D. @ Zhejiang University"
   location         :
   employer         :
   uri              : # URL
